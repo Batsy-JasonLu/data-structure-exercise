@@ -1,5 +1,12 @@
 package com.lu.linkedlist;
 
+/**
+ * 
+ * @author lu
+ * 
+ * @description 两个单链表转成整数相加，得到一个整数，把这个整数拆分成多个个位数，最后把数字连成链表。
+ *
+ */
 public class TwoSingleListAddMerge {
 
     public Node addSplitMerge(Node head1, Node head2) {

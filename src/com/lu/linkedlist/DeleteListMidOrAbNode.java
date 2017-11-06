@@ -1,5 +1,12 @@
 package com.lu.linkedlist;
 
+/**
+ * 
+ * @author lu
+ *
+ * @description 删除链表中间的节点和a/b处的节点。
+ *
+ */
 public class DeleteListMidOrAbNode {
 
     public void deleteMidNode(Node head) {
