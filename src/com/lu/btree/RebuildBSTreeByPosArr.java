@@ -1,14 +1,21 @@
 package com.lu.btree;
 
+/**
+ * 
+ * @author lu
+ * 
+ * @description 根据后序数组重建搜索二叉树。
+ *
+ */
 public class RebuildBSTreeByPosArr {
 
+    // 首先判断该数组是否为搜索二叉树的后序结果。其一定满足，比后序数组最后一个元素小的在数组的左边，相反的在右边，不断递归划分，一旦不满足条件则不为搜索二叉树。
     public boolean isBSTreeByArr(int[] arr) {
         if (arr == null || arr.length < 1) {
             return false;
         }
         
         return isBSTree(arr, 0, arr.length - 1);
-        
     }
     
     public boolean isBSTree(int[] arr, int start, int end) {

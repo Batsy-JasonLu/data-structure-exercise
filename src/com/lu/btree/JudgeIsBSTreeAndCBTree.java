@@ -4,6 +4,13 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Stack;
 
+/**
+ * 
+ * @author lu
+ * 
+ * @description 判断二叉树是否是二叉搜索树和完全二叉树。
+ *
+ */
 public class JudgeIsBSTreeAndCBTree {
 
     // 用中序遍历，如果节点值是递增的，说明为二叉搜索树。
@@ -95,7 +102,7 @@ public class JudgeIsBSTreeAndCBTree {
 
         node2.left = node1;
         node2.right = node5;
-        // 有该节点则不满足bst。
+        // 有该节点则不满足bst的定义。
 //         node1.right = node3;
         node5.right = node6;
 
