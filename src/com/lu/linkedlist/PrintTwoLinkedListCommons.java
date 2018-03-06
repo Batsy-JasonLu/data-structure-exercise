@@ -41,13 +41,3 @@ public class PrintTwoLinkedListCommons {
     }
 
 }
-
-// 给定的邮箱链表的节点结构。
-class Node {
-    public int value;
-    public Node next;
-    
-    public Node(int value) {
-        this.value = value;
-    }
-}
