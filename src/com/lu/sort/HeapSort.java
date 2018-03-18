@@ -20,7 +20,8 @@ public class HeapSort {
             int tmp = arr[0];
             arr[0] = arr[i];
             arr[i] = tmp;
-            adjustHeapNoRecursion(arr, i, 0);
+            adjustHeap(arr, i, 0);
+//            adjustHeapNoRecursion(arr, i, 0);
         }
         
         print(arr);
@@ -28,7 +29,8 @@ public class HeapSort {
     
     public void buildMaxHeap(int[] arr) {
         for (int i = arr.length - 1; i >= 0; i--) {
-            adjustHeapNoRecursion(arr, arr.length, i);
+        	adjustHeap(arr, arr.length, i);
+//            adjustHeapNoRecursion(arr, arr.length, i);
         }
     }
     

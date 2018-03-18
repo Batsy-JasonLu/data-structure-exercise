@@ -1,4 +1,4 @@
-package com.lu.stack;
+package com.lu.queue;
 
 /**
  * 
