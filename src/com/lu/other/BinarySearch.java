@@ -44,9 +44,11 @@ public class BinarySearch {
             return searchRecursion(arr, target, start, mid - 1);
         } else if (arr[mid] < target) {
             return searchRecursion(arr, target, mid + 1, end);
-        } else {
+        } else if (arr[mid] == target){
             return mid;
         }
+        
+        return -1;
     }
     
     public static void main(String[] args) {
