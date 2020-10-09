@@ -120,7 +120,8 @@ public class BTreeIterate {
         
     }
     
-    /* 二叉树如图：     1
+    /* 二叉树如图：
+                  1
                 /   \
                2     3
               / \   /
